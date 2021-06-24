@@ -1,0 +1,90 @@
+
+img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+#zoom {
+  transition: transform .2s; animation
+  margin: 0 auto;
+}
+
+#zoom:hover {
+  transform: scale(1.25);
+  border-radius: 10%;
+}
+
+.login-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+
+.login{
+    background: linear-gradient(-410deg, #f87f73 50%, #292423 50%);
+    margin-top: 1%;
+    padding: 3%;
+    border-radius: 25px;
+    border-style: none;
+
+}
+
+.login-form{
+    padding: 10%;
+    margin-top: 5%;
+}
+.login .login-form p
+{
+	font-weight: bold;
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.login .login-form input
+{
+	border-radius: 25px;
+	font-size: 15px;
+	padding: 10px;
+	width: 250px;
+	background: #e6e6e6;
+	color: #666;
+	text-align: center;
+	background: white;
+	font-weight: bold;
+}
+
+.login .login-form select
+{
+	border-radius: 25px;
+	font-size: 15px;
+	width: 250px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.login .login-form button
+{
+	width: 250px;
+	padding: 10px;
+	border-radius: 25px;
+	background: #57B846;
+	display: inline-block;
+	text-transform: uppercase;
+	justify-content: center;
+	font-size: 15px;
+	color: #000;
+}
+
+.login .login-form span
+{
+	color: white;
+	padding: 50px;
+}
+.login .login-form a
+{
+	color: black;
+	text-decoration: none;
+}
